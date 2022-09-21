@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>結果画面</title>
+</head>
+<body>
+<h1>YesDIパターン</h1>
+<p>社員No：<span th:text="${number}">100</span></p>
+<p>社員名：<span th:text="${name}">ダミー太郎</span></p>
+<a href="index.html" th:href="@{input}">入力画面へ</a>
+</body>
+</html>

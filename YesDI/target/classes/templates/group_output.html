@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>結果画面</title>
+</head>
+<body>
+<h1>YesDIパターン</h1>
+<p>グループNo：<span th:text="${number}">10000</span></p>
+<p>グループ名：<span th:text="${name}">ダミー太郎</span></p>
+<a href="group_index.html" th:href="@{group_input}">入力画面へ</a>
+</body>
+</html>
